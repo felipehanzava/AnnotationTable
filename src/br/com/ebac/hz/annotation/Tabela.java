@@ -8,5 +8,8 @@ import java.lang.annotation.*;
 @Target({ElementType.TYPE})
 public @interface Tabela {
 
-    String[] nome();
+    String[] value();
+
+
+
 }
